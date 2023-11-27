@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    box-shadow:0.3em 0.3em 1em rgba(23, 86, 221, 0.3);
+    padding: 9px 33px;
+}
+.logoname{
+    display: flex;
+    font-variant-ligatures: no-common-ligatures;
+    font-weight: 700;
+    padding: 0 10px;
+    color:blue;
+    margin: 30px 0px 0px 10px;
+    
+}
+.logoname span{
+    padding: 0px 10px 0px 10px;
+    font-size: 25px;
+    color: #868e96;
+}
+
+.logoname h1{
+    font-size: 30px;
+    margin-top: -10px;
+    
+    
+}
+.navlist ul{
+    display: flex;
+    list-style: none;
+    margin-left: 236px;
+    font: 17px sans-serif;
+    margin-top: 33px;
+}
+.navlist ul li a{
+    
+   text-decoration: none;
+   list-style: none;
+    color: #000;
+    padding: 20px 28px 810px 20px;
+    font-weight: 5;
+    margin-right: 16px;
+    
+}
+.navlist ul li:hover{
+    background-color: #dde6ee;
+   
+}
+.navimg img{
+    border-radius: 50px;
+    height: 25px;
+    padding-right: 30px;
+    background-color: #cfd8e0;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/*....*/
+.main{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+  
+}
+.maintex span{
+    display: flex;
+   padding-top: 100px
+   
+}
+.maintex span h1{
+    font-size: 50px;
+    
+    text-shadow: 2px 0 5px #3a057048;
+}
+.maintex span img{
+    height: 50px;
+    margin-left: 20px;
+}
+.maintex p{
+    color: #868e96;
+    font-size: 20px;
+    width: 684px;
+    padding-right: 40px;
+}
+.icon{
+    display: flex;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+     margin-top: 25px;
+     margin-left: 33px;
+    
+   ;
+}
+.icon i{
+
+    border-radius: 100px;
+    padding: 0px 10px;
+}
+.btn{
+    margin-top: 40px;
+}
+.btn a{
+    background-color:blue;
+    border: 1px solid blue;
+    border-radius: 6px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding: 13px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+.btn a:hover{
+    background-color: #fff;
+    color: #55198b;
+    border: 1px solid #55198b;
+    transition:1s ease-in-out;
+}
+
+.mainimg img {
+    margin-left:-22px;
+    height: 444px;
+    width: 568px;
+    float: right;
+    border-radius: 350px;
+    box-shadow:0.3em 0.3em 1em rgba(12, 84, 238, 0.3);
+
+}
+/*....*/
+.skils{
+    display: flex;
+    margin-top: 50px;
+}
+.skilsimg img{
+    margin-top: 73px;
+    margin-left: 77px;
+    height: 292px;
+    width: 403px;
+    border-radius: 145px;
+    box-shadow:0.3em 0.3em 1em rgba(23, 86, 221, 0.3);
+
+}
+.skilstex{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.skilstex h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#1c12cf;
+            border-bottom: 4px ridge;
+            width: 164px;
+   
+}
+.skilstex p{
+    color: #868e96!important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 23px;
+}
+
+.skilsicon1 ul{
+    display: flex;
+}
+.skilsicon1 ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.skilsicon1 ul li i{
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+    line-height: 1;
+    font-size: 40px;
+    margin-left: 30px;
+    color: blue;
+    
+}
+.skilsicon1 ul li i:hover{
+    color:black;
+}
+.skilsicon1 ul li p {
+    margin-left: 34px;
+    font-size: 13px;
+}
+.skilsicon2 ul{
+    display: flex;
+    margin-left: 80px;
+}
+.skilsicon2 ul li{
+    list-style: none;
+}
+.skilsicon2 ul li i{
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+    line-height: 1;
+    font-size: 50px;
+    margin-left: 30px;
+    color: blue;
+
+}
+.skilsicon2 ul li i:hover{
+    color: black;
+}
+.skilsicon2 ul li p {
+    margin-left: 34px;
+    font-size: 13px;
+}
+/*...........*/
+.bardiv{
+    margin: 50px 100px 0px 100px;
+}
+.bardiv h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#1c12cf;
+            border-bottom: 4px ridge;
+            width: 113px;
+}
+.bardiv p{
+    color: #868e96;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+    
+
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    
+  }
+ .html {
+    width: 90%;   
+      background-color: #1d13cf;
+      
+}
+.css {width: 80%;     background-color: #231ad6;}
+.js {width: 65%;     background-color: #1c12cf;}
+.php {width: 60%;     background-color: #1c12d4;}
+
+/*...............*/
+.BigProjects{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.skills-heading{
+    font-size: 40px;
+    font-weight: 400;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#1c12cf;
+            border-bottom: 4px ridge;
+            width: 382px;
+}
+.subTitle{
+    color: #868e96!important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.projects-container{
+    display: flex;
+    gap: 50px;
+}
+.project-card{
+    /* background-color: #55198b; */
+    height: 456px;
+    width: 900px;
+    padding: 30px 30px;
+    box-shadow:0.3em 0.3em 1em rgba(12, 84, 238, 0.3);
+}
+.project-image{
+    text-align: center;
+       
+}
+.project-image img{
+    
+    height: 236px;
+    width: 323px;
+}
+.project-detail{
+    margin-top: 30px;
+    text-align: center;
+}
+.card-title{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+    
+}
+.card-subtitle {
+    color: #666;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
+}
+.card-button{
+    background-color:blue;
+    border: 1px solid blue;
+    border-radius: 6px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-right: 50px; */
+    margin-top: -19px;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: max-content;
+
+}
+.card-button:hover{
+    background-color: #fff;
+    color: #55198b;
+    border: 1px solid #55198b;
+    transition:1s ease-in-out;
+}
+
+/*.....*/
+ .container11 {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container12{
+            max-width: 1180px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow:0.3em 0.3em 1em rgba(23, 86, 221, 0.3);
+
+        }
+         .container12 h1{
+            margin: 18px 5px;
+            color:#1c12cf;
+            border-bottom: 4px ridge;
+            width: 113px;
+         }
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color:  #1c12cf;
+        }
+
+        .form-group input{
+            width: 100%;
+            padding: 15px;
+            padding-left: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            width: 100%;
+
+        }
+
+        .form-group button {
+            background-color: #1c12cf;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            border: 2px solid black;
+            background-color:white;
+            color: #000;
+        }
+.footer{
+    margin: 0px 100px;
+    text-align: center;
+}
+.footer-text{
+    color: #0f69c4!important;
+    font-size: 20px;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
